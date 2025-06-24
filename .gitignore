@@ -13,8 +13,6 @@
 go.work
 go.work.sum
 
-# Go module files (optional to ignore if you don’t want to commit them)
-/go.sum
 
 # Dependency directories (if you're using vendoring)
 /vendor/
