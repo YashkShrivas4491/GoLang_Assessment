@@ -26,7 +26,6 @@ func main() {
 	// Setup routes
 	routes.SetupRoutes(r)
 
-	// r.Run(":6000")
 
 	// Get port from environment variable or default to 6000
 	port := os.Getenv("PORT")
