@@ -1,0 +1,42 @@
+# Binaries
+/bin/
+/build/
+/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file (Go 1.18+)
+go.work
+go.work.sum
+
+# Go module files (optional to ignore if you don’t want to commit them)
+/go.sum
+
+# Dependency directories (if you're using vendoring)
+/vendor/
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+*.tmp
+
+# Swagger auto-generated docs (if not needed in VCS)
+docs/swagger.json
+docs/swagger.yaml
+
+# Environment files
+.env
+.env.*
