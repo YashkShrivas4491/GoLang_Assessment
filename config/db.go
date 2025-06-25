@@ -2,9 +2,7 @@ package config
 
 import (
 	"fmt"
-	"log"
 	"os"
-
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -16,10 +14,8 @@ var Err error
 
 func InitDB() {
 	// Load .env file
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatalf("Error loading .env file")
-	}
+	 godotenv.Load()
+	
 
 	host := os.Getenv("DB_HOST")
 	user := os.Getenv("DB_USER")
